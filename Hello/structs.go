@@ -1,12 +1,10 @@
-package main 
+package main
 
-// import (
-// 	"fmt"
-// )
+// import "fmt"
 
 // type stack struct {
-// 	index int 
-// 	data [5]int 
+// 	index int
+// 	data [5]int
 // }
 
 // func (s *stack) push(k int) {
@@ -23,8 +21,36 @@ package main
 // 	s := new(stack)
 // 	s.push(23)
 // 	s.push(14)
-// 	// An error in the pop method 
+// 	// An error in the pop method
 // 	s.pop()
 // 	s.pop()
 // 	fmt.Printf("The stack is %v\n", *s)
 // }
+
+//type Person struct {
+//	Name string
+//}
+//
+//func setNameByReference(person *Person, name string) {
+//	person.Name = name
+//}
+//
+//func setNameByValue(person Person, name string) Person {
+//	person.Name = name
+//	return person
+//}
+//
+//func main() {
+//	//	v := Person{Name: "Alice"}
+//	//	p := &v
+//	//	p.Name = "John"
+//	//	fmt.Println(v)
+//	var person Person = Person{Name: "John"}
+//	setNameByReference(&person, "Doe")
+//
+//	fmt.Println(person)
+//
+//	person = setNameByValue(person, "Alice")
+//
+//	fmt.Println(person)
+//}

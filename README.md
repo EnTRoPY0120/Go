@@ -6,3 +6,4 @@ Day-2 : Learnt arrays and structs data types.
 Day-3 : Learnt Slices and how functions work.
 Day-4 : Learnt Strings,bytes,runes.
 Day-5 : Learnt about how pointers work.
+Day-6 : Learnt about how interfaces work.
