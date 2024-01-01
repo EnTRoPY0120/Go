@@ -6,7 +6,7 @@ package main
 
 // func main(){
 
-// 	var address *int 
+// 	var address *int
 // 	number := 42
 // 	address = &number
 // 	value := *address
@@ -14,3 +14,4 @@ package main
 // 	fmt.Printf("The address is %v\n", address)
 // 	fmt.Printf("The value that is dereferenced is %v\n" , value)
 // }
+

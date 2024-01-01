@@ -25,4 +25,3 @@ package main
 //	fmt.Println("gopher", id, "started cooking")
 //	c <- id // Send a value back to main
 //}
-
