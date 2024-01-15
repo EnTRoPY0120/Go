@@ -8,3 +8,4 @@ Day-4 : Learnt Strings,bytes,runes.
 Day-5 : Learnt about how pointers work.
 Day-6 : Learnt about how interfaces work.
 Day-7 : Learnt to create a simple http server.
+Day-8 : Designed a basic RESTful API endpoint
