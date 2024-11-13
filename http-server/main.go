@@ -8,12 +8,13 @@ import (
 )
 
 type Person struct {
-	Data interface{} `json:"Data,omitempty"`
+	Data interface {} `json:"Data,omitempty"`
 	Name string      `json:"Name"`
 }
 
 func sendJSONResponse(w http.ResponseWriter, response Person) {
 	jsonResponse, err := json.Marshal(response)
+	
 	if err != nil {
 		http.Error(w, "Error Marshalling json response", http.StatusInternalServerError)
 		return
@@ -30,13 +31,11 @@ func createPerson(w http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		panic(err)
 	}
-
 	sendJSONResponse(w, *person)
 }
 
 func getPerson(w http.ResponseWriter) {
-	person := Person{Name: "EnTRoPY"}
-
+	person := Person{ Name: "EnTRoPY" }
 	sendJSONResponse(w, person)
 }
 
