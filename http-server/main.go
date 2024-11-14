@@ -52,6 +52,5 @@ func personHandler(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	http.Handle("/foo", http.HandlerFunc(personHandler))
-
 	log.Fatal(http.ListenAndServe(":8080", nil))
 }
