@@ -41,12 +41,12 @@ func getPerson(w http.ResponseWriter) {
 
 func personHandler(w http.ResponseWriter, r *http.Request) {
 	switch r.Method {
-	case http.MethodGet:
-		fmt.Println("GET")
-		getPerson(w)
-	case http.MethodPost:
-		fmt.Println("POST")
-		createPerson(w, r)
+		case http.MethodGet:
+			fmt.Println("GET")
+			getPerson(w)
+		case http.MethodPost:
+			fmt.Println("POST")
+			createPerson(w, r)
 	}
 }
 
